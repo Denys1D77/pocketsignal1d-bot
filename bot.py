@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 
-API_TOKEN = 'YOUR_BOT_TOKEN_HERE'  # 🔁 Замінити на свій токен
+API_TOKEN = '7776421169:AAHvwjNRCzadSmR2KMraUJNRxWpehK3K5mc'
 
 logging.basicConfig(level=logging.INFO)
 
