@@ -51,7 +51,7 @@ async def set_language(callback_query: types.CallbackQuery):
     await bot.answer_callback_query(callback_query.id)
     if lang == 'uk':
         await bot.send_message(callback_query.from_user.id,
-            "Привіт! Це PocketSignal1D 🤖
+            "Привіт! Це PocketSignal1D 🤖"
 
 Я надсилатиму тобі сигнали для торгівлі на Pocket Option.
 
