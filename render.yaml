@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: pocketsignal1d
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: API_TOKEN
+        value: 7776421169:AAHvwjNRCzadSmR2KMraUJNRxWpehK3K5mc
